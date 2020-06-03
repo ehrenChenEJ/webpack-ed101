@@ -86,14 +86,25 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./cal.js":
+/*!****************!*\
+  !*** ./cal.js ***!
+  \****************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("\n//計算函式\nfunction calculate(n) {\n    return n * 100 + 'unit'\n}\n//字串\nvar text = 'hi webpack';\n\n\n//模塊打包\nmodule.exports = {\n    name: 'bryant',\n    cal: calculate\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jYWwuanMuanMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9jYWwuanM/OTdjYiJdLCJzb3VyY2VzQ29udGVudCI6WyJcbi8v6KiI566X5Ye95byPXG5mdW5jdGlvbiBjYWxjdWxhdGUobikge1xuICAgIHJldHVybiBuICogMTAwICsgJ3VuaXQnXG59XG4vL+Wtl+S4slxudmFyIHRleHQgPSAnaGkgd2VicGFjayc7XG5cblxuLy/mqKHloYrmiZPljIVcbm1vZHVsZS5leHBvcnRzID0ge1xuICAgIG5hbWU6ICdicnlhbnQnLFxuICAgIGNhbDogY2FsY3VsYXRlXG59Il0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./cal.js\n");
+
+/***/ }),
+
 /***/ "./index.js":
 /*!******************!*\
   !*** ./index.js ***!
   \******************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("console.log('ok');//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9pbmRleC5qcy5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL2luZGV4LmpzPzQxZjUiXSwic291cmNlc0NvbnRlbnQiOlsiY29uc29sZS5sb2coJ29rJyk7Il0sIm1hcHBpbmdzIjoiQUFBQSIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./index.js\n");
+eval("var obj = __webpack_require__(/*! ./cal */ \"./cal.js\");\n\nconsole.log(obj.cal(10));\nconsole.log(obj.name);\n\n\n// console.log('ok');//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9pbmRleC5qcy5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL2luZGV4LmpzPzQxZjUiXSwic291cmNlc0NvbnRlbnQiOlsidmFyIG9iaiA9IHJlcXVpcmUoJy4vY2FsJyk7XG5cbmNvbnNvbGUubG9nKG9iai5jYWwoMTApKTtcbmNvbnNvbGUubG9nKG9iai5uYW1lKTtcblxuXG4vLyBjb25zb2xlLmxvZygnb2snKTsiXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./index.js\n");
 
 /***/ })
 
